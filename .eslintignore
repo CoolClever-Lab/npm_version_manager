@@ -1,0 +1,6 @@
+.eslintrc.js
+__tests__
+*.test.js
+config
+dist
+*.config.*

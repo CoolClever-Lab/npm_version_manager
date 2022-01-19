@@ -1,0 +1,63 @@
+{
+  "_from": "version_manager_npm@0.0.5",
+  "_id": "version_manager_npm@0.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-8Cv16ohuW7D7snX/AtejDjhN6RJeDRZa+rvnJ+KlScoUe83I2dIu7tAlpPNlOQAdOvXcgfbjRV7Sq6UwYNYORA==",
+  "_location": "/version_manager_npm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "version_manager_npm@0.0.5",
+    "name": "version_manager_npm",
+    "escapedName": "version_manager_npm",
+    "rawSpec": "0.0.5",
+    "saveSpec": null,
+    "fetchSpec": "0.0.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://gitlab:1234/version_manager_npm/-/version_manager_npm-0.0.5.tgz",
+  "_shasum": "ed3c8d6f1fc88adbd763a92448004dc79e5a9d1d",
+  "_spec": "version_manager_npm@0.0.5",
+  "_where": "/Users/kkukharev/Projects/lolopi",
+  "author": {
+    "name": "LNA"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "app-root-path": "^3.0.0"
+  },
+  "deprecated": false,
+  "description": "Модуль для автоматического версионирования проектов",
+  "devDependencies": {
+    "@types/app-root-path": "^1.2.4",
+    "@types/jest": "^26.0.13",
+    "@types/node": "^14.6.4",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint": "^7.8.1",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "ts-node-register": "^1.0.0",
+    "typescript": "^4.0.2"
+  },
+  "keywords": [
+    "version",
+    "manager"
+  ],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "name": "version_manager_npm",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.cd.local:coolclever-npm/version_manager_npm.git"
+  },
+  "scripts": {
+    "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx",
+    "eslint:dump": "eslint --print-config ./.eslintrc.json",
+    "test": "jest ./src && git checkout package.json"
+  },
+  "version": "0.0.5"
+}
